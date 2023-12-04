@@ -1,7 +1,8 @@
 # Prosodic phrase segmentation
 
 !["our proposed system frameworks"](https://github.com/Xuplussss/prosodic-phrase-segmentation/blob/main/SystemFrameworks.png?raw=true)
-本工具用於對語音訊號切段，切段步驟:
+
+## 本工具用於對語音訊號切段，切段步驟:
 - 靜音段分割，使用praat工具
 - 使用SVM對所有frame分類verbal/non-verbal
 - 韻律短語演算法對verbal段細分韻律片段
