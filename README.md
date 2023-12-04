@@ -8,19 +8,19 @@
 - 韻律短語演算法對verbal段細分韻律片段
 ## 1. 安裝套件
 ```
-    download linux OpenSmile-2.1.0 : https://arcgit.wpi.edu/toto/EMOTIVOClean/tree/master/openSMILE-2.1.0
-    tar zxvf openSMILE-2.1.0.tar.gz
-    cd openSMILE-2.1.0
-    sh buildStandalone.sh
-    vim ~/.bashrc
-    insert at last: export PATH=$PATH:/media/md01/home/cyhkelvin/software/openSMILE-2.1.0/inst/bin
-    source ~/.bashrc
-    SMILExtract -h
+    - download linux OpenSmile-2.1.0 : https://arcgit.wpi.edu/toto/EMOTIVOClean/tree/master/openSMILE-2.1.0
+    - tar zxvf openSMILE-2.1.0.tar.gz
+    - cd openSMILE-2.1.0
+    - sh buildStandalone.sh
+    - vim ~/.bashrc
+    - insert at last: export PATH=$PATH:/media/md01/home/cyhkelvin/software/openSMILE-2.1.0/inst/bin
+    - source ~/.bashrc
+    - SMILExtract -h
     
-    sudo apt install sox
-    sudo apt install lame
-    sudo apt install libsox-fmt-all
-    chmod 777 praat praat-ft-annot createSILtg.praat svm-predict svm-scale svm-train
+    - sudo apt install sox
+    - sudo apt install lame
+    - sudo apt install libsox-fmt-all
+    - sudo chmod 777 praat praat-ft-annot createSILtg.praat svm-predict svm-scale svm-train
 ```
 ## 2. 更改 run_segmentaion.sh檔案中的路徑參數
 ```
